@@ -4,7 +4,6 @@ import android.view.View
 
 class NoAnimationActivity: BaseActivity() {
     override fun onStartAnimation(view: View) {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
 }

@@ -29,6 +29,7 @@
         <activity android:name=".animations.RotateRocketAnimatioinActivity"/>
         <activity android:name=".animations.WithListenerAnimationActivity"/>
         <activity android:name=".animations.XmlAnimationActivity"/>
+        <activity android:name=".animations.LaunchRocketValueAnimatorAnimationActivity"/>
     </application>
 
 </manifest>

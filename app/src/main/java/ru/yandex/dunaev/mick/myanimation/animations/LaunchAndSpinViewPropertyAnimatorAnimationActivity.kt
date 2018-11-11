@@ -4,7 +4,11 @@ import android.view.View
 
 class LaunchAndSpinViewPropertyAnimatorAnimationActivity: BaseActivity() {
     override fun onStartAnimation(view: View) {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        binding.rocket.animate()
+            .translationY(-screenHeight)
+            .rotationBy(360f)
+            .setDuration(DEFAULT_ANIMATION_DURATION)
+            .start()
     }
 
 }
